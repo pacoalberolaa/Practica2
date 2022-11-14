@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="6dp"
         android:layout_weight="1"
-        android:text="Nuevo Contacto"
+        android:text="@string/nuevo_contacto"
         android:textAlignment="center"
         android:textSize="24sp" />
 
@@ -63,14 +63,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Aceptar" />
+            android:text="@string/aceptar"
+            tools:ignore="NestedWeights" />
 
         <Button
             android:id="@+id/btCancelar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Cancelar" />
+            android:text="@string/cancelar" />
     </LinearLayout>
 
 </LinearLayout>

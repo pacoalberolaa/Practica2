@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
         btReceta=findViewById(R.id.btReceta)
 
         btAgenda.setOnClickListener { enviarAgenda() }
+        btReceta.setOnClickListener { enviarReceta() }
 
     }
 
@@ -30,5 +31,10 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, AgendaActivity::class.java)
         startActivity(intent)
 
+    }
+
+    fun enviarReceta(){
+        val intent = Intent(this, RecetaActivity::class.java)
+        startActivity(intent)
     }
 }
